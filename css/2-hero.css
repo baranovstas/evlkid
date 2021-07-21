@@ -1,0 +1,120 @@
+.hero {
+  padding-bottom: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.hero .container {
+  padding: 0;
+}
+
+.hero__container {
+  position: relative;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  padding: 103px 815px 93px 80px;
+  pointer-events: none;
+}
+
+.hero__content * {
+  pointer-events: auto;
+}
+
+.hero__title {
+  font-size: 70.37px;
+  font-weight: 800;
+  line-height: 85.79px;
+  color: var(--white);
+  margin-bottom: 22px;
+}
+
+.hero__text {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29px;
+  color: var(--white);
+  margin-bottom: 97px;
+  letter-spacing: 0.2px;
+}
+
+.hero__link {
+  display: inline-block;
+  padding: 26px 39px;
+  font-size: 23px;
+  line-height: 29px;
+}
+
+.hero__slider-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container {
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide-1 {
+  background-image: url(../img/hero_bi-1.webp);
+}
+
+.swiper-slide-2 {
+  background-image: url(../img/hero_bi-2.webp);
+}
+
+.swiper-slide-3 {
+  background-image: url(../img/hero_bi-3.webp);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: 42px 42px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.swiper-button-next {
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M39.3641 20.586L19.682 0.90393L20.5859 0L41.1719 20.586L20.5859 41.172L19.682 40.268L39.3641 20.586Z' fill='%23FF9900'/%3E%3C/svg%3E%0A");
+}
+
+.swiper-button-prev {
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M39.3641 20.586L19.682 0.90393L20.5859 0L41.1719 20.586L20.5859 41.172L19.682 40.268L39.3641 20.586Z' fill='%23FF9900'/%3E%3C/svg%3E%0A");
+  transform: rotate(-180deg);
+}
+
+.swiper-button-next:active,
+.swiper-button-prev:active {
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='42' viewBox='0 0 42 42' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M39.3641 20.586L19.682 0.90393L20.5859 0L41.1719 20.586L20.5859 41.172L19.682 40.268L39.3641 20.586Z' fill='%23E1670E'/%3E%3C/svg%3E%0A");
+}
+
+span.swiper-pagination-bullet {
+  background-color: var(--white);
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--white);
+}
+
+span.swiper-pagination-bullet:not(:last-child) {
+  margin-right: 20px !important;
+}
+
+span.swiper-pagination-bullet:focus {
+  outline: 3px solid #000;
+}
