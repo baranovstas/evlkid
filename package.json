@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://baranovstas.github.io/evlkid/",
+  "homepage": "https://baranovstas.github.io/evlkid",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d Evklid"
   },
   "repository": {
     "type": "git",
