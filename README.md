@@ -1,6 +1,6 @@
 ![Ссылка на изображение](https://raw.githubusercontent.com/baranovstas/evlkid/main/img/header__logo.webp)
 
-# Инструкция по просмотру сайта
+# Как посмотреть сайт?
 
 - скачайте проект в виде ZIP-папки
 - разархивируйте скачанную папку
