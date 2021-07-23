@@ -1,0 +1,23 @@
+{
+  "name": "Evklid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://baranovstas.github.io/evlkid/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baranovstas/evlkid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baranovstas/evlkid/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
