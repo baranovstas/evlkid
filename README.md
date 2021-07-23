@@ -1,4 +1,4 @@
-![Ссылка на изображение](https://raw.githubusercontent.com/baranovstas/evlkid/8ba4a9e4c70744df25223ab5c43cf03b5aa81442/img/header__logo.svg)
+![Ссылка на изображение](https://raw.githubusercontent.com/baranovstas/evlkid/main/img/header__logo.webp)
 
 # Инструкция по просмотру сайта
 
