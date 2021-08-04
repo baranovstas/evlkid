@@ -15,6 +15,6 @@
 
 - Swiper JS
 - JQuery accordion
-- Табы на ванильном JavaScript
+- Табы на чистом JavaScript
 - Доступность интерактивных элементов
 - Адаптивность
