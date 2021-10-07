@@ -24,10 +24,6 @@
   border: none;
   background-color: transparent;
   padding: 0;
-  -webkit-transition: color 0.2s ease;
-  -moz-transition: color 0.2s ease;
-  -ms-transition: color 0.2s ease;
-  -o-transition: color 0.2s ease;
 }
 
 .how__link.how__link-active {
@@ -50,12 +46,23 @@
   margin-right: 92px;
 }
 
+@keyframes showTab {
+  0% {
+    opacity: 0;
+    transform: translate(-1%, -1%);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 .how__desc {
   display: none;
 }
 
 .how__desc-active {
   display: block;
+  animation: showTab .4s ease-in-out;
 }
 
 .how__desc-item {
@@ -94,10 +101,6 @@
   padding: 19px 38px;
   border: 1px solid var(--black);
   transition: background-color 0.2s ease, color 0.2s ease;
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease;
-  -moz-transition: background-color 0.2s ease, color 0.2s ease;
-  -ms-transition: background-color 0.2s ease, color 0.2s ease;
-  -o-transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .how__link-contract:hover {

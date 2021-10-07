@@ -1,0 +1,8 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+
+  <symbol id="arrow-red" fill="none">
+    <circle cx="29" cy="29" r="29" fill="#CE3730"/>
+    <path d="M25.5 20L34.5 29L25.5 38" stroke="white" stroke-width="2"/>
+  </symbol>
+
+</svg>
