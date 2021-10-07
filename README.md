@@ -7,5 +7,6 @@
 - HTML
 - CSS
 - Чистый JavaScript
+- Gulp
 - Swiper JS
 - JQuery accordion
